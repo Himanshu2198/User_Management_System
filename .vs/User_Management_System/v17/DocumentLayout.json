@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\himanshu.p_droisys\\source\\repos\\User_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\himanshu.p_droisys\\source\\repos\\user_management_system\\user_management_system\\views\\user_authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\user_authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\himanshu.p_droisys\\source\\repos\\user_management_system\\user_management_system\\user_management_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\user_management_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\himanshu.p_droisys\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "User_Management_System\\Views\\User_Authentication\\Login.cshtml",
+              "ToolTip": "C:\\Users\\himanshu.p_droisys\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_Authentication\\Login.cshtml",
+              "RelativeToolTip": "User_Management_System\\Views\\User_Authentication\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T05:35:06.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User_Management_System.csproj",
+              "DocumentMoniker": "C:\\Users\\himanshu.p_droisys\\source\\repos\\User_Management_System\\User_Management_System\\User_Management_System.csproj",
+              "RelativeDocumentMoniker": "User_Management_System\\User_Management_System.csproj",
+              "ToolTip": "C:\\Users\\himanshu.p_droisys\\source\\repos\\User_Management_System\\User_Management_System\\User_Management_System.csproj",
+              "RelativeToolTip": "User_Management_System\\User_Management_System.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-01T04:58:19.721Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
