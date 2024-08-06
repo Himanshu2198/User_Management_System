@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\",
+  "WorkspaceRootPath": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\User_Management_System\\User_Management_System.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:User_Management_System\\User_Management_System.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\himanshupandey\\source\\repos\\user_management_system\\user_management_system\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_List\\uList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:User_Management_System\\Views\\User_List\\uList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\himanshupandey\\source\\repos\\user_management_system\\user_management_system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_Authentication\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:User_Management_System\\Views\\User_Authentication\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\himanshupandey\\source\\repos\\user_management_system\\user_management_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\himanshupandey\\source\\repos\\user_management_system\\user_management_system\\user_management_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\user_management_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "uList.cshtml",
-              "DocumentMoniker": "C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_List\\uList.cshtml",
-              "RelativeDocumentMoniker": "User_Management_System\\Views\\User_List\\uList.cshtml",
-              "ToolTip": "C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_List\\uList.cshtml",
-              "RelativeToolTip": "User_Management_System\\Views\\User_List\\uList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "User_Management_System\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "User_Management_System\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T11:55:11.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "User_Management_System\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "User_Management_System\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-02T09:23:24.643Z",
+              "WhenOpened": "2024-08-06T11:56:05.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_Authentication\\Login.cshtml",
-              "RelativeDocumentMoniker": "User_Management_System\\Views\\User_Authentication\\Login.cshtml",
-              "ToolTip": "C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_Authentication\\Login.cshtml",
-              "RelativeToolTip": "User_Management_System\\Views\\User_Authentication\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "User_Management_System\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "User_Management_System\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T05:35:06.188Z"
+              "WhenOpened": "2024-08-06T10:47:50.187Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "User_Management_System.csproj",
-              "DocumentMoniker": "C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\User_Management_System\\User_Management_System.csproj",
+              "DocumentMoniker": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\User_Management_System.csproj",
               "RelativeDocumentMoniker": "User_Management_System\\User_Management_System.csproj",
-              "ToolTip": "C:\\Users\\parth.b_droisys\\source\\repos\\User_Management_System\\User_Management_System\\User_Management_System.csproj",
+              "ToolTip": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\User_Management_System.csproj",
               "RelativeToolTip": "User_Management_System\\User_Management_System.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-01T04:58:19.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T04:58:19.721Z"
             }
           ]
         }
