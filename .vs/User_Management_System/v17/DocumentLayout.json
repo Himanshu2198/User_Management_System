@@ -26,11 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -40,7 +44,7 @@
               "RelativeDocumentMoniker": "User_Management_System\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\Controllers\\HomeController.cs",
               "RelativeToolTip": "User_Management_System\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T11:55:11.629Z",
               "EditorCaption": ""
@@ -53,7 +57,7 @@
               "RelativeDocumentMoniker": "User_Management_System\\Views\\Home\\Login.cshtml",
               "ToolTip": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Home\\Login.cshtml",
               "RelativeToolTip": "User_Management_System\\Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-06T11:56:05.976Z",
               "EditorCaption": ""
@@ -66,7 +70,7 @@
               "RelativeDocumentMoniker": "User_Management_System\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\HimanshuPandey\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "User_Management_System\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAABtAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAABzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-06T10:47:50.187Z",
               "EditorCaption": ""
