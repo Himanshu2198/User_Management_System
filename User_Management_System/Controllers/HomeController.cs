@@ -31,7 +31,11 @@ namespace User_Management_System.Controllers
         {
             return View();
         }
+<<<<<<< HEAD
         public IActionResult Contact()
+=======
+        public IActionResult Services()
+>>>>>>> 40f40a466fcf2fbba6ce0dfc4ebf9eecc6862dad
         {
             return View();
         }
