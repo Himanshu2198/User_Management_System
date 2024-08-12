@@ -3,55 +3,72 @@
 *@
 @{
 }
-<Html>  
-<head>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
     
-<title>  
-Registration Page  
-</title>  
-</head>  
-<body bgcolor="Lightskyblue">  
-<br>  
-<br>  
-<form>
-    <h3>Register</h3> 
-  <label> User Name</label>
-   <input type="text" name="UserName" size="15" /> <br> <br>
+</head>
+<body>
 
-        <label> Email</label>
-        <input type="text" name="Email" id="email" /> <br> <br>
+    <div class="card m-md-3" style="width:50rem; height:50rem;">
+        <div class="card-body py-5 px-md-5">
 
-        <label> Password</label>
-        <input type="Password" id="pass" name="pass"> <br> <br>
+            <h1 style ="text-align:center"> Registration Form</h1>
+            <br />
+            <form action="/submit-registration" method="post" style="text-align:left justify">
+                <div class="form-group">
+                    <label for="username">User Name:</label>
+                    <input type="text" id="username" name="username" required>
+                </div><br />
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div> <br />
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div> <br />
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div> <br />
+                <div class="form-group">
+                    <label>Gender:</label>
 
-        <label> Gender :  </label>  <br>
-        <input type="radio" id="gender" name="gender" value="male" /> Male
-        <br>
-        <input type="radio" id="gender" name="gender" value="female" /> Female <br />
+                    <select name="Gender" id="Gender">
+                        <option value="////Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Transgender">Transgender</option>
+                        <option value="Others">Others</option>
 
-        <input type="radio" id="gender" name="gender" value="Other" /> Other<br /> <br />
+                    </select>
+                </div> <br />
+                <div class="form-group">
+                    <label for="department">Department Name:</label>
+                    <select name="Department" id="Department Name">
+                        <option value="Department"> Enter the Department Name</option>
+                        <option value="Engineering"> Engineering</option>
+                        <option value="HR"> HR</option>
+                        <option value="Sales">Sales</option>
+                        <option value="Operations">Opreations</option>
 
-        <label> 
-        Phone :
-        </label>
-        <input type="text" name="country code"  value="+91" size="2"/> 
-        <input type="text" name="phone" size="10"/> <br> <br>
-
-
-        <label>Department Name : </label><br>
-
-        <select name="Department" id="Department Name">
-            <option value="Department Name">Department Name</option>
-            <option value="Engineering">Engineering</option>
-            <option value="HR">HR</option>
-            <option value="Sales">Sales</option>
-            <option value="IT Administrative">IT Administrative</option>
-        </select><br /><br />
-
-        <input type="button" value="Register" >
-
+                    </select>
+                </div> <br />
+                <div class="form-group">
+                    <label for="phone">Phone Numbers:</label>
+                    <input type="text" name="country code" value="+91" size="13" />
+                    <br> <br>
+                </div> <br />
+                <div class="form-group">
+                    <button type="submit">Register</button>
+                </div> <br />
+            </form>
+        </div>
         
+    </div>
 
-    </form>
-    </body>
-    </html>
+</body>
+</html>
