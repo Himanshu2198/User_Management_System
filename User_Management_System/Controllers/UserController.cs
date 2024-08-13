@@ -30,17 +30,6 @@ namespace User_Management_System.Controllers
         {
             return View();
         }
-
-<<<<<<< HEAD:User_Management_System/Controllers/HomeController.cs
-=======
-        [HttpPost]
-        public IActionResult RedirectToHome(string userId,string pwd)
-        {
-            TempData["user"] = userId;
-            return RedirectToAction("Index");
-        }
-
->>>>>>> 86143e37eb05405fae7392141b600c4bba17bc06:User_Management_System/Controllers/UserController.cs
         public IActionResult Register()
         {
             return View();
