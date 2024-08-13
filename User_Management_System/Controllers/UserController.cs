@@ -30,6 +30,13 @@ namespace User_Management_System.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult RedirectToHome(string userId, string pwd)
+        {
+            TempData["user"] = userId;
+            return RedirectToAction("Index");
+        }
         public IActionResult Register()
         {
             return View();
