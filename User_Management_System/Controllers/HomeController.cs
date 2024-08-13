@@ -27,9 +27,16 @@ namespace User_Management_System.Controllers
         {
             return View();
         }
+
         public IActionResult Register()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult RedirectToLogin()
+        {
+            return RedirectToAction("Login");
         }
 
         public IActionResult Contact()
