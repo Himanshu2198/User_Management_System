@@ -1,20 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
 using User_Management_System.Models;
 
 namespace User_Management_System.Controllers
 {
-    public class HomeController : Controller
+    public class UserController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<UserController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public UserController(ILogger<UserController> logger)
         {
             _logger = logger;
         }
 
         public IActionResult Index()
         {
+            var user = TempData["user"];
+            ViewBag.UserId = user;
             return View();
         }
 
@@ -28,6 +31,16 @@ namespace User_Management_System.Controllers
             return View();
         }
 
+<<<<<<< HEAD:User_Management_System/Controllers/HomeController.cs
+=======
+        [HttpPost]
+        public IActionResult RedirectToHome(string userId,string pwd)
+        {
+            TempData["user"] = userId;
+            return RedirectToAction("Index");
+        }
+
+>>>>>>> 86143e37eb05405fae7392141b600c4bba17bc06:User_Management_System/Controllers/UserController.cs
         public IActionResult Register()
         {
             return View();
