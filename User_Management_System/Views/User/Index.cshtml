@@ -7,6 +7,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <script>
+    function updateData() {
+        document.getElementById("saveUser").hidden = false;
+        document.getElementById("updateUser").hidden=true;
+
+    }
     function removeReadonly() {
         document.getElementById("usernameDisplay").removeAttribute('readonly');
         document.getElementById("emailDisplay").removeAttribute('readonly');
@@ -14,9 +19,10 @@
         document.getElementById("genderDisplay").removeAttribute('readonly');
         document.getElementById("departmentDisplay").removeAttribute('readonly');
         document.getElementById("phoneDisplay").removeAttribute('readonly');
-
-        alert(" button clicked");
+        updateData();
     }
+    
+
 
 
 </script>
@@ -24,13 +30,13 @@
     @{
         if(user == null)
         {
-                    <h class="display-4">Welcome to </h>
-                    <p><span class="h3 ">@ViewData["Title"]</span></p>
+                                <h class="display-4">Welcome to </h>
+                                <p><span class="h3 ">@ViewData["Title"]</span></p>
         }
         else
         {
-                    <h class="display-4">Welcome </h>
-                    <p><span class="h3 ">@user</span></p>
+                                <h class="display-4">Welcome </h>
+                                <p><span class="h3 ">@user</span></p>
         }
     }
     
@@ -43,53 +49,54 @@
  </div>
     @{
         if(user != null){
-                <div class="text-center h-100 d-flex align-items-center justify-content-center">
-                    <div class="card m-md-3 mx-auto" style="width:50rem; height:70rem;">
-                        <div class="card-body py-5 px-md-5">
+                            <div class="text-center h-100 d-flex align-items-center justify-content-center">
+                                <div class="card m-md-3 mx-auto" style="width:50rem; height:70rem;">
+                                    <div class="card-body py-5 px-md-5">
 
-                            <h1 style="text-align:center">Dashboard </h1>
-                            <br />
-                            <form asp-action="" method="post" style="text-align:left justify">
-                                <div class="form-group">
-                                    <label for="userId">User Id:</label>
-                                    <input type="text" id="userIdDisplay" name="userId" readonly>
-                                </div><br />
-                                <div class="form-group">
-                                    <label for="username">User Name:</label>
-                                    <input type="text" id="usernameDisplay" name="username" readonly>
-                                </div><br />
-                                <div class="form-group">
-                                    <label for="email">Email:</label>
-                                    <input type="text" id="emailDisplay" name="email" readonly>
-                                </div> <br />
-                                <div class="form-group">
-                                    <label for="dob">Date of Birth:</label>
-                                    <input type="date" id="dobDisplay" name="dob" readonly>
-                                </div> <br />
-                                <div class="form-group">
-                                    <label for="gender">Gender:</label>
-                                    <input type="text" id="genderDisplay" name="gender" maxlength="1" readonly>
-                                    
-                                </div> <br />
-                                <div class="form-group">
-                                    <label for="department">Department Name:</label>
-                                    <input type="text" id="departmentDisplay" name="department" readonly>
-                                </div> <br />
-                                <div class="form-group">
-                                    <label for="phone">Phone Numbers:</label>
-                                    <input type="text" name="phone" value="+91" size="13" id="phoneDisplay" readonly/>
-                                    <br> <br>
-                                </div> <br />
+                                        <h1 style="text-align:center">Dashboard </h1>
+                                        <br />
+                                        <form asp-action="" method="post" style="text-align:left justify">
+                                            <div class="form-group">
+                                                <label for="userId">User Id:</label>
+                                                <input type="text" id="userIdDisplay" name="userId" readonly>
+                                            </div><br />
+                                            <div class="form-group">
+                                                <label for="username">User Name:</label>
+                                                <input type="text" id="usernameDisplay" name="username" readonly>
+                                            </div><br />
+                                            <div class="form-group">
+                                                <label for="email">Email:</label>
+                                                <input type="text" id="emailDisplay" name="email" readonly>
+                                            </div> <br />
+                                            <div class="form-group">
+                                                <label for="dob">Date of Birth:</label>
+                                                <input type="date" id="dobDisplay" name="dob" readonly>
+                                            </div> <br />
+                                            <div class="form-group">
+                                                <label for="gender">Gender:</label>
+                                                <input type="text" id="genderDisplay" name="gender" maxlength="1" readonly>
+                                                
+                                            </div> <br />
+                                            <div class="form-group">
+                                                <label for="department">Department Name:</label>
+                                                <input type="text" id="departmentDisplay" name="department" readonly>
+                                            </div> <br />
+                                            <div class="form-group">
+                                                <label for="phone">Phone Numbers:</label>
+                                                <input type="text" name="phone" value="+91" size="13" id="phoneDisplay" readonly/>
+                                                <br> <br>
+                                            </div> <br />
 
-                                <button type="button" class="btn btn-primary" id="updateUser" onclick="removeReadonly()">Update</button>
+                                            <button type="button" class="btn btn-primary" id="updateUser" onclick="removeReadonly()">Update</button>
+                                            <button type="button" class="btn btn-primary" id="saveUser"  hidden=true >save</button>
 
 
-                            </form>
-                        </div>
+                                        </form>
+                                    </div>
 
-                    </div>
-                    
-                    </div>
+                                </div>
+                                
+                                </div>
                    
 
         }
