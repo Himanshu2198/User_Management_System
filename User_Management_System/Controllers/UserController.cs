@@ -10,10 +10,12 @@ namespace User_Management_System.Controllers
     public class UserController : Controller
     {
         private readonly ILogger<UserController> _logger;
+        private readonly IConfiguration _configuration;
 
-        public UserController(ILogger<UserController> logger)
+        public UserController(ILogger<UserController> logger, IConfiguration configuration)
         {
             _logger = logger;
+            _configuration = configuration;
         }
 
         public IActionResult Index()
@@ -38,6 +40,7 @@ namespace User_Management_System.Controllers
         {
             TempData["user"] = userId;
             return RedirectToAction("Index");
+
         }
         public IActionResult Register()
         {
