@@ -41,5 +41,31 @@ namespace User_Management_System.Models
         {
             return;
         }
+        public User DisplayUser()
+        {
+            User myUser1 = new User();
+            SqlConnection con = new SqlConnection(@"Data Source=192.168.0.89;Initial Catalog=Userdb;User ID=sa;password=droisys@4800");
+            SqlCommand cmd = new SqlCommand("userDetails", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("userId", myUser1.UserId);
+            con.Open();
+                SqlDataReader dataReader = cmd.ExecuteReader();
+
+                if (dataReader != null)
+                {
+                    dataReader.Read();
+                }
+            myUser1.UserId = dataReader["UserId"].ToString();
+            myUser1.UserName = dataReader["UserName"].ToString();
+            myUser1.Email = dataReader["Email"].ToString();
+            myUser1.DOB = dataReader["DOB"].ToString();
+            myUser1.Gender= dataReader["Gender"].ToString();
+            myUser1.Phone= dataReader["ContactNumber"].ToString();
+            myUser1.DeptName = dataReader["DeptId"].ToString() ;
+            //TempData["username"] = dataReader["ussername"]
+            con.Close();
+            return myUser1;
+            
+        }
     }
 }

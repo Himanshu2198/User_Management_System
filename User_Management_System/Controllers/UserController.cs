@@ -39,7 +39,9 @@ namespace User_Management_System.Controllers
         public IActionResult RedirectToHome(string userId, string pwd)
         {
             TempData["user"] = userId;
+            
             return RedirectToAction("Index");
+            
 
         }
         public IActionResult Register()
@@ -115,6 +117,8 @@ namespace User_Management_System.Controllers
             con.Close();
             return;
         }
+      
+        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
