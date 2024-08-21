@@ -47,7 +47,21 @@ namespace User_Management_System.Models
 
         public void UpdateUser(User user)
         {
+            connection();
+            SqlCommand cmd = new SqlCommand("updateUser",con);
+            cmd.CommandType = CommandType.StoredProcedure; 
+            cmd.Parameters.AddWithValue ("@userId", user.UserId);
+            cmd.Parameters.AddWithValue ("@username", user.UserName);
+            cmd.Parameters.AddWithValue("@email", user.Email);
+            cmd.Parameters.AddWithValue("@pass", user.Password);
+            cmd.Parameters.AddWithValue("@DOB", user.DOB);
+            cmd.Parameters.AddWithValue("@gen", user.Gender);
+            cmd.Parameters.AddWithValue("@contact", user.Phone);
+            cmd.Parameters.AddWithValue("@DeptId", user.DeptName);
+            con.Open() ;
+            cmd.ExecuteNonQuery();
             return;
+
         }
         public void DeleteUser(User user) { return; }
         public DataTable getUserDetails(string uname, string pass)
@@ -65,26 +79,25 @@ namespace User_Management_System.Models
             con.Close();
             return dataTable;
         }
-        public User DisplayUser()
+        public User DisplayUser(string username,string pass)
         {
             User myUser1 = new User();
             SqlConnection con = new SqlConnection(@"Data Source=192.168.0.89;Initial Catalog=Userdb;User ID=sa;password=droisys@4800");
             SqlCommand cmd = new SqlCommand("userDetails", con);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("userId", myUser1.UserId);
+            cmd.Parameters.AddWithValue("userName", username);
+            cmd.Parameters.AddWithValue("pass", pass);
             con.Open();
-                SqlDataReader dataReader = cmd.ExecuteReader();
-
-                if (dataReader != null)
-                {
+            SqlDataReader dataReader = cmd.ExecuteReader();
                     dataReader.Read();
-                }
+            Console.WriteLine(dataReader["UserId"].ToString());
             myUser1.UserId = dataReader["UserId"].ToString();
+            Console.WriteLine(myUser1.UserId);
             myUser1.UserName = dataReader["UserName"].ToString();
             myUser1.Email = dataReader["Email"].ToString();
             myUser1.DOB = dataReader["DOB"].ToString();
             myUser1.Gender= dataReader["Gender"].ToString();
-            myUser1.Phone= dataReader["ContactNumber"].ToString();
+            myUser1.Phone= dataReader["ContactNo"].ToString();
             myUser1.DeptName = dataReader["DeptId"].ToString() ;
             //TempData["username"] = dataReader["ussername"]
             con.Close();
