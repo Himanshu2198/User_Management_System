@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Data;
+using System.Data.SqlClient;
 
 namespace User_Management_System.Models
 {
@@ -7,6 +8,6 @@ namespace User_Management_System.Models
         void AddUser(User user);
         void UpdateUser(User user);
         void DeleteUser(User user);
-        public SqlDataReader getUserDetails(string uname, string pass);
+        public DataTable getUserDetails(string uname, string pass);
     }
 }
