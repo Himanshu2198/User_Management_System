@@ -4,8 +4,6 @@ using System.Data;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using User_Management_System.Models;
-using System.Numerics;
-using System.Reflection;
 
 namespace User_Management_System.Controllers
 {
@@ -13,14 +11,11 @@ namespace User_Management_System.Controllers
     {
         private readonly ILogger<UserController> _logger;
         private readonly IConfiguration _configuration;
-       
-
 
         public UserController(ILogger<UserController> logger, IConfiguration configuration)
         {
             _logger = logger;
             _configuration = configuration;
-            
         }
 
         public IActionResult Index()
@@ -29,24 +24,6 @@ namespace User_Management_System.Controllers
             return View();
             
         }
-    
-        [HttpPost]
-        public IActionResult Index(string username, string email, DateOnly dob, string gender, string department, string phone)
-        {
-            myUser = new User();
-            myUser.UserName = username;
-            myUser.Email = email;
-          
-            myUser.DOB = dob.ToString();
-            myUser.Gender = gender;
-            myUser.DeptName = department;
-            myUser.Phone = phone;
-
-            //TempData["newuser"] = myUser;
-            newUser.UpdateUser(myUser);
-            return RedirectToAction("Register");
-        }
-
 
         public IActionResult Privacy()
         {
@@ -65,16 +42,7 @@ namespace User_Management_System.Controllers
             if (res.Rows.Count > 0)
             {
                 TempData["user"] = userName;
-                User myu1 =newUser.DisplayUser(userName, pwd);
-                Console.WriteLine(myu1.UserName);
-                TempData["userName"] = myu1.UserName;
-                TempData["userId"] = myu1.UserId;
-                TempData["Email"] = myu1.Email;
-                TempData["Gender"]=myu1.Gender;
-                TempData["DOB"] = myu1.DOB;
-                TempData["Phone"] = myu1.Phone;
-                TempData["DeptName"] = myu1.DeptName;
-                Console.WriteLine(TempData["userId"]);
+
                 return RedirectToAction("Index");
             }
             else
@@ -123,7 +91,6 @@ namespace User_Management_System.Controllers
         {
             return View();
         }
-        
         
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
