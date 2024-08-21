@@ -45,19 +45,19 @@ namespace User_Management_System.Models
             return;
         }
 
-        public void UpdateUser(User user)
+        public void UpdateUser(User myUser)
         {
             connection();
             SqlCommand cmd = new SqlCommand("updateUser",con);
             cmd.CommandType = CommandType.StoredProcedure; 
-            cmd.Parameters.AddWithValue ("@userId", user.UserId);
-            cmd.Parameters.AddWithValue ("@username", user.UserName);
-            cmd.Parameters.AddWithValue("@email", user.Email);
-            cmd.Parameters.AddWithValue("@pass", user.Password);
-            cmd.Parameters.AddWithValue("@DOB", user.DOB);
-            cmd.Parameters.AddWithValue("@gen", user.Gender);
-            cmd.Parameters.AddWithValue("@contact", user.Phone);
-            cmd.Parameters.AddWithValue("@DeptId", user.DeptName);
+            cmd.Parameters.AddWithValue ("@userId", myUser.UserId);
+            cmd.Parameters.AddWithValue ("@username", myUser.UserName);
+            cmd.Parameters.AddWithValue("@email", myUser.Email);
+            cmd.Parameters.AddWithValue("@pass", myUser.Password);
+            cmd.Parameters.AddWithValue("@DOB", myUser.DOB);
+            cmd.Parameters.AddWithValue("@gen", myUser.Gender);
+            cmd.Parameters.AddWithValue("@contact", myUser.Phone);
+            cmd.Parameters.AddWithValue("@DeptId", myUser.DeptName);
             con.Open() ;
             cmd.ExecuteNonQuery();
             return;
