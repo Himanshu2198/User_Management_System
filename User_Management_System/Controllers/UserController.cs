@@ -20,9 +20,9 @@ namespace User_Management_System.Controllers
 
         public IActionResult Index()
         {
-            var user = TempData["user"];
-            ViewBag.UserId = user;
+            
             return View();
+            
         }
 
         public IActionResult Privacy()
@@ -42,7 +42,16 @@ namespace User_Management_System.Controllers
             if (res.HasRows)
             {
                 TempData["user"] = userName;
-
+                User myu1 =newUser.DisplayUser(userName, pwd);
+                Console.WriteLine(myu1.UserName);
+                TempData["userName"] = myu1.UserName;
+                TempData["userId"] = myu1.UserId;
+                TempData["Email"] = myu1.Email;
+                TempData["Gender"]=myu1.Gender;
+                TempData["DOB"] = myu1.DOB;
+                TempData["Phone"] = myu1.Phone;
+                TempData["DeptName"] = myu1.DeptName;
+                Console.WriteLine(TempData["userId"]);
                 return RedirectToAction("Index");
             }
             else
