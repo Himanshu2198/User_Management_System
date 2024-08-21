@@ -50,7 +50,7 @@ namespace User_Management_System.Models
             return;
         }
         public void DeleteUser(User user) { return; }
-        public SqlDataReader getUserDetails(string uname, string pass)
+        public DataTable getUserDetails(string uname, string pass)
         {
             connection();
             SqlCommand cmd = new SqlCommand("userDetails",con);
@@ -59,12 +59,11 @@ namespace User_Management_System.Models
             cmd.Parameters.AddWithValue("pass", pass);
 
             con.Open();
-            SqlDataReader reader = cmd.ExecuteReader();
-
-            var result = reader;
-   
-            //con.Close();
-            return reader;
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dataTable = new DataTable();
+            adapter.Fill(dataTable);
+            con.Close();
+            return dataTable;
         }
         public User DisplayUser(string username,string pass)
         {
