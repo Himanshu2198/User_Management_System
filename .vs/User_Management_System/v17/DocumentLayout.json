@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -54,6 +54,10 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Register.cshtml",
@@ -63,7 +67,8 @@
               "RelativeToolTip": "User_Management_System\\Views\\User\\Register.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAcwD0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T09:58:08.982Z"
+              "WhenOpened": "2024-08-21T09:58:08.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -79,26 +84,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "User_Management_System\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Controllers\\UserController.cs",
               "RelativeToolTip": "User_Management_System\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAcwGkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T07:30:25.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Models\\UserRepository.cs",
               "RelativeDocumentMoniker": "User_Management_System\\Models\\UserRepository.cs",
               "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Models\\UserRepository.cs",
               "RelativeToolTip": "User_Management_System\\Models\\UserRepository.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAwwEoAAAAXAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwEAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T07:21:23.631Z",
               "EditorCaption": ""
