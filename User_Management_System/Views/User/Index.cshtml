@@ -58,32 +58,32 @@
                                         <form asp-action="" method="post" style="text-align:left justify">
                                             <div class="form-group">
                                                 <label for="userId">User Id:</label>
-                                                <input type="text" id="userIdDisplay" name="userId" readonly>
+                                                <input type="text" id="userIdDisplay" name="userId" value=@TempData["UserId"] readonly>
                                             </div><br />
                                             <div class="form-group">
                                                 <label for="username">User Name:</label>
-                                                <input type="text" id="usernameDisplay" name="username" readonly>
+                                            <input type="text" id="usernameDisplay" name="username" value=@TempData["UserName"] readonly>
                                             </div><br />
                                             <div class="form-group">
                                                 <label for="email">Email:</label>
-                                                <input type="text" id="emailDisplay" name="email" readonly>
+                            <input type="text" id="emailDisplay" name="email" value=@TempData["Email"] readonly>
                                             </div> <br />
                                             <div class="form-group">
                                                 <label for="dob">Date of Birth:</label>
-                                                <input type="date" id="dobDisplay" name="dob" readonly>
+                            <input type="date" id="dobDisplay" name="dob" value=@TempData["DOB"] readonly>
                                             </div> <br />
                                             <div class="form-group">
                                                 <label for="gender">Gender:</label>
-                                                <input type="text" id="genderDisplay" name="gender" maxlength="1" readonly>
+                            <input type="text" id="genderDisplay" name="gender" maxlength="1" value=@TempData["Gender"] readonly>
                                                 
                                             </div> <br />
                                             <div class="form-group">
                                                 <label for="department">Department Name:</label>
-                                                <input type="text" id="departmentDisplay" name="department" readonly>
+                            <input type="text" id="departmentDisplay" name="department" value=@TempData["DeptName"] readonly>
                                             </div> <br />
                                             <div class="form-group">
                                                 <label for="phone">Phone Numbers:</label>
-                                                <input type="text" name="phone" value="+91" size="13" id="phoneDisplay" readonly/>
+                            <input type="text" name="phone" value=@TempData["Phone"] size="10" id="phoneDisplay" readonly />
                                                 <br> <br>
                                             </div> <br />
 
@@ -97,8 +97,6 @@
                                 </div>
                                 
                                 </div>
-                   
-
         }
         
     }
