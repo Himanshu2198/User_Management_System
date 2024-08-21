@@ -18,8 +18,8 @@
     <div class="card-body py-5 px-md-5">
         <form asp-action="RedirectToHome" method="post">
             <div class="form-group">
-                <label for="UserId">UserID </label>
-                <input type="text" class="form-control" id="userId" name="userId">
+                <label for="UserName">User Name </label>
+                <input type="text" class="form-control" id="userId" name="userName">
             </div>
             <div class="form-group">
                 <label for="Password">Password</label>
@@ -33,5 +33,13 @@
         </form>
     </div>
     </div>
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@ViewBag.Message");
+        };
+    </script>
+}
     
 
