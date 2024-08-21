@@ -38,11 +38,10 @@ namespace User_Management_System.Controllers
         [HttpPost]
         public IActionResult RedirectToHome(string userName, string pwd)
         {
-            SqlDataReader res = newUser.getUserDetails(userName, pwd);
-            if (res.HasRows)
+            DataTable res = newUser.getUserDetails(userName, pwd);
+            if (res.Rows.Count > 0)
             {
                 TempData["user"] = userName;
-
                 return RedirectToAction("Index");
             }
             else
