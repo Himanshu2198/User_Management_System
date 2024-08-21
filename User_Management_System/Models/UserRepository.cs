@@ -47,7 +47,21 @@ namespace User_Management_System.Models
 
         public void UpdateUser(User user)
         {
+            connection();
+            SqlCommand cmd = new SqlCommand("updateUser",con);
+            cmd.CommandType = CommandType.StoredProcedure; 
+            cmd.Parameters.AddWithValue ("@userId", user.UserId);
+            cmd.Parameters.AddWithValue ("@username", user.UserName);
+            cmd.Parameters.AddWithValue("@email", user.Email);
+            cmd.Parameters.AddWithValue("@pass", user.Password);
+            cmd.Parameters.AddWithValue("@DOB", user.DOB);
+            cmd.Parameters.AddWithValue("@gen", user.Gender);
+            cmd.Parameters.AddWithValue("@contact", user.Phone);
+            cmd.Parameters.AddWithValue("@DeptId", user.DeptName);
+            con.Open() ;
+            cmd.ExecuteNonQuery();
             return;
+
         }
         public void DeleteUser(User user) { return; }
         public DataTable getUserDetails(string uname, string pass)
