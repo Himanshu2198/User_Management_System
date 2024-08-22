@@ -50,17 +50,6 @@ namespace User_Management_System.Models
             connection();
             SqlCommand cmd = new SqlCommand("updateUser",con);
             cmd.CommandType = CommandType.StoredProcedure; 
-<<<<<<< HEAD
-            cmd.Parameters.AddWithValue ("@username", user.UserName);
-            cmd.Parameters.AddWithValue("@email", user.Email);
-            cmd.Parameters.AddWithValue("@pass", user.Password);
-            cmd.Parameters.AddWithValue("@DOB", user.DOB);
-            cmd.Parameters.AddWithValue("@gen", user.Gender);
-            cmd.Parameters.AddWithValue("@contact", user.Phone);
-            cmd.Parameters.AddWithValue("@DeptId", user.DeptName);
-            con.Open() ;
-           
-=======
             cmd.Parameters.AddWithValue ("userId", myUser.UserId);
             cmd.Parameters.AddWithValue ("userName", myUser.UserName);
             cmd.Parameters.AddWithValue("email", myUser.Email);
@@ -72,7 +61,7 @@ namespace User_Management_System.Models
             cmd.ExecuteNonQuery();
             con.Close();
             return;
->>>>>>> 011dea6dea085db10040234bfc58577ece94f38b
+
 
         }
         public void DeleteUser(User user) { return; }
@@ -102,15 +91,12 @@ namespace User_Management_System.Models
             con.Open();
             SqlDataReader dataReader = cmd.ExecuteReader();
                     dataReader.Read();
-<<<<<<< HEAD
           //  Console.WriteLine(dataReader["UserId"].ToString());
-            myUser1.UserId = dataReader["UserId"].ToString();
+            myUser1.UserId = Convert.ToInt32(dataReader["UserId"]);
            // Console.WriteLine(myUser1.UserId);
-=======
             //Console.WriteLine(dataReader["UserId"].ToString());
             myUser1.UserId = Convert.ToInt32(dataReader["UserId"]);
             //Console.WriteLine(myUser1.UserId);
->>>>>>> 011dea6dea085db10040234bfc58577ece94f38b
             myUser1.UserName = dataReader["UserName"].ToString();
             myUser1.Email = dataReader["Email"].ToString();
             myUser1.DOB = dataReader["DOB"].ToString();

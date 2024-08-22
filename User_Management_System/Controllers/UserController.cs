@@ -38,10 +38,6 @@ namespace User_Management_System.Controllers
             myUser.UserId = Convert.ToInt32(userId);
             myUser.UserName = username;
             myUser.Email = email;
-<<<<<<< HEAD
-=======
-
->>>>>>> 011dea6dea085db10040234bfc58577ece94f38b
             myUser.DOB = dob.ToString();
             myUser.Gender = gender;
             myUser.DeptName = department;

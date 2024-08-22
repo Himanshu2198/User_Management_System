@@ -5,11 +5,7 @@
     var username = TempData["userName"] as string;
     var useremail = TempData["Email"] as string;
     var usergender = TempData["Gender"] as string;
-<<<<<<< HEAD
     var userdob = TempData["DOB"]  ;
-=======
-    var userdob = TempData["DOB"];
->>>>>>> 011dea6dea085db10040234bfc58577ece94f38b
     var userphone = TempData["Phone"] as string;
     var userdept = TempData["DeptName"] as string;
 }
@@ -18,17 +14,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <script>
     function updateData() {
-<<<<<<< HEAD
-      // document.getElementById("saveUser").hidden = false;
-      // document.getElementById("updateUser").hidden=true;
-       document.getElementById("updateUser").disabled = true;
-       document.getElementById("saveUser").enabled = true;
-       document.getElementById("saveUser").disabled = false;
-=======
-        document.getElementById("saveUser").hidden = false;
-        document.getElementById("updateUser").hidden = true;
->>>>>>> 011dea6dea085db10040234bfc58577ece94f38b
 
+      document.getElementById("saveUser").hidden = false;
+       document.getElementById("updateUser").hidden=true;
     }
     function removeReadonly() {
         alert("removeReadonly called.");
@@ -52,7 +40,7 @@
     @{
         if (user == null)
         {
-<<<<<<< HEAD
+
                                                 <h class="display-4">Welcome to </h>
                                                 <p><span class="h3 ">@ViewData["Title"]</span></p>
         }
@@ -60,16 +48,8 @@
         {
                                                 <h class="display-4">Welcome </h>
                                                 <p><span class="h3 ">@user</span></p>
-=======
-            <h class="display-4">Welcome to </h>
-            <p><span class="h3 ">@ViewData["Title"]</span></p>
         }
-        else
-        {
-            <h class="display-4">Welcome </h>
-            <p><span class="h3 ">@user</span></p>
->>>>>>> 011dea6dea085db10040234bfc58577ece94f38b
-        }
+        
     }
 
 </div>
@@ -78,66 +58,8 @@
     <button type="button" class="btn btn-default btn-sm">
         <span class="glyphicon glyphicon-search"></span> Search
     </button>
-<<<<<<< HEAD
+
  </div>
-    
-       @{
-           if(@userid != null){
-         
-                                        <div class="text-center h-100 d-flex align-items-center justify-content-center">
-                                            <div class="card m-md-3 mx-auto" style="width:50rem; height:70rem;">
-                                                <div class="card-body py-5 px-md-5">
-
-                                                    <h1 style="text-align:center">Dashboard </h1>
-                                                    <br />
-                                                    <form asp-action="" method="post" style="text-align:left justify">
-                                                        <div class="form-group">
-                                                            <label for="userId">User Id:</label>
-                                    <input type="text" id="userIdDisplay" name="userId" value=@userid readonly>
-                                                        </div><br />
-                                                        <div class="form-group">
-                                                            <label for="username">User Name:</label>
-                                    <input type="text" id="usernameDisplay" name="username" value=@username readonly>
-                                                        </div><br />
-                                                        <div class="form-group">
-                                                            <label for="email">Email:</label>   
-                                    <input type="text" id="emailDisplay" name="email" value=@useremail readonly>
-                                                        </div> <br />
-                                                        <div class="form-group">
-                                                            <label for="dob">Date of Birth:</label>
-                                    <input type="datetime" id="dobDisplay" name="dob" value=@userdob readonly>
-                                                        </div> <br />
-                                                        <div class="form-group">
-                                                            <label for="gender">Gender:</label>
-                                    <input type="text" id="genderDisplay" name="gender" maxlength="1" value=@usergender readonly>
-                                                            
-                                                        </div> <br />
-                                                        <div class="form-group">
-                                                            <label for="department">Department Name:</label>
-                                    <input type="text" id="departmentDisplay" name="department" value=@userdept readonly>
-                                                        </div> <br />
-                                                        <div class="form-group">
-                                                            <label for="phone">Phone Numbers:</label>
-                                        <input type="text" name="phone" value=@userphone size="10" id="phoneDisplay" readonly />
-                                                            <br> <br>
-                                                        </div> <br />
-
-                                                        <button type="button" class="btn btn-primary" id="updateUser" onclick=removeReadonly()  enabled="true">Update</button>
-                                                       <button type="button" class="btn btn-primary" id="saveUser"  disabled="true" >save</button>
-
-
-                                                    </form>
-                                                </div>
-
-                                            </div>
-                                            
-                                            </div>
-        }
-        }
-    
-=======
-</div>
-
 @{
     if (@userid != null)
     {
@@ -155,7 +77,7 @@
                         </div><br />
                         <div class="form-group">
                             <label for="username">User Name:</label>
-                            <input type="text" id="usernameDisplay" name="username" value=@user readonly>
+                            <input type="text" id="usernameDisplay" name="username" value=@username readonly>
                         </div><br />
                         <div class="form-group">
                             <label for="email">Email:</label>
@@ -163,7 +85,7 @@
                         </div> <br />
                         <div class="form-group">
                             <label for="dob">Date of Birth:</label>
-                            <input type="date" id="dobDisplay" name="dob" value=@userdob readonly>
+                            <input type="datetime" id="dobDisplay" name="dob" value=@userdob readonly>
                         </div> <br />
                         <div class="form-group">
                             <label for="gender">Gender:</label>
@@ -195,4 +117,4 @@
     }
 }
 
->>>>>>> 011dea6dea085db10040234bfc58577ece94f38b
+
