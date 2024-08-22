@@ -38,7 +38,6 @@ namespace User_Management_System.Controllers
             myUser.UserId = Convert.ToInt32(userId);
             myUser.UserName = username;
             myUser.Email = email;
-
             myUser.DOB = dob.ToString();
             myUser.Gender = gender;
             myUser.DeptName = department;
@@ -74,15 +73,17 @@ namespace User_Management_System.Controllers
             {
                 TempData["user"] = userName;
                 User myu1 =newUser.DisplayUser(userName, pwd);
-                Console.WriteLine(myu1.UserName);
+               // Console.WriteLine(myu1.UserName);
                 TempData["userName"] = myu1.UserName;
                 TempData["userId"] = myu1.UserId;
                 TempData["Email"] = myu1.Email;
                 TempData["Gender"]=myu1.Gender;
-                TempData["DOB"] = myu1.DOB;
+                DateTime dateObject = DateTime.Parse(myu1.DOB);
+                TempData["DOB"] = dateObject.Date;
+               // Console.WriteLine(TempData["DOB"]);
                 TempData["Phone"] = myu1.Phone;
                 TempData["DeptName"] = myu1.DeptName;
-                Console.WriteLine(TempData["userId"]);
+               // Console.WriteLine(TempData["userId"]);
                 return RedirectToAction("Index");
             }
             else
@@ -91,7 +92,7 @@ namespace User_Management_System.Controllers
                 return View("Login");
             }
 
-        }
+        }  
         public IActionResult Register()
         {
             return View();

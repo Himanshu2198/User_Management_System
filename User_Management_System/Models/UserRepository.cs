@@ -62,6 +62,7 @@ namespace User_Management_System.Models
             con.Close();
             return;
 
+
         }
         public void DeleteUser(User user) { return; }
         public DataTable getUserDetails(string uname, string pass)
@@ -90,6 +91,9 @@ namespace User_Management_System.Models
             con.Open();
             SqlDataReader dataReader = cmd.ExecuteReader();
                     dataReader.Read();
+          //  Console.WriteLine(dataReader["UserId"].ToString());
+            myUser1.UserId = Convert.ToInt32(dataReader["UserId"]);
+           // Console.WriteLine(myUser1.UserId);
             //Console.WriteLine(dataReader["UserId"].ToString());
             myUser1.UserId = Convert.ToInt32(dataReader["UserId"]);
             //Console.WriteLine(myUser1.UserId);
