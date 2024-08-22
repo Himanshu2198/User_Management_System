@@ -50,16 +50,16 @@ namespace User_Management_System.Models
             connection();
             SqlCommand cmd = new SqlCommand("updateUser",con);
             cmd.CommandType = CommandType.StoredProcedure; 
-            cmd.Parameters.AddWithValue ("@userId", myUser.UserId);
-            cmd.Parameters.AddWithValue ("@username", myUser.UserName);
-            cmd.Parameters.AddWithValue("@email", myUser.Email);
-            cmd.Parameters.AddWithValue("@pass", myUser.Password);
-            cmd.Parameters.AddWithValue("@DOB", myUser.DOB);
-            cmd.Parameters.AddWithValue("@gen", myUser.Gender);
-            cmd.Parameters.AddWithValue("@contact", myUser.Phone);
-            cmd.Parameters.AddWithValue("@DeptId", myUser.DeptName);
+            cmd.Parameters.AddWithValue ("userId", myUser.UserId);
+            cmd.Parameters.AddWithValue ("userName", myUser.UserName);
+            cmd.Parameters.AddWithValue("email", myUser.Email);
+            cmd.Parameters.AddWithValue("dob", myUser.DOB);
+            cmd.Parameters.AddWithValue("gender", myUser.Gender);
+            cmd.Parameters.AddWithValue("phone", myUser.Phone);
+            cmd.Parameters.AddWithValue("dept", myUser.DeptName);
             con.Open() ;
             cmd.ExecuteNonQuery();
+            con.Close();
             return;
 
         }
@@ -90,9 +90,9 @@ namespace User_Management_System.Models
             con.Open();
             SqlDataReader dataReader = cmd.ExecuteReader();
                     dataReader.Read();
-            Console.WriteLine(dataReader["UserId"].ToString());
-            myUser1.UserId = dataReader["UserId"].ToString();
-            Console.WriteLine(myUser1.UserId);
+            //Console.WriteLine(dataReader["UserId"].ToString());
+            myUser1.UserId = Convert.ToInt32(dataReader["UserId"]);
+            //Console.WriteLine(myUser1.UserId);
             myUser1.UserName = dataReader["UserName"].ToString();
             myUser1.Email = dataReader["Email"].ToString();
             myUser1.DOB = dataReader["DOB"].ToString();

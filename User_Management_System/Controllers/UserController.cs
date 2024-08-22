@@ -13,7 +13,10 @@ namespace User_Management_System.Controllers
     {
         private readonly ILogger<UserController> _logger;
         private readonly IConfiguration _configuration;
-       
+
+        public User myUser;
+        UserRepository newUser = new UserRepository();
+
 
 
         public UserController(ILogger<UserController> logger, IConfiguration configuration)
@@ -22,29 +25,34 @@ namespace User_Management_System.Controllers
             _configuration = configuration;
             
         }
-
+        
         public IActionResult Index()
         {
-            
             return View();
-            
         }
-    
+
         [HttpPost]
-        public IActionResult Index(string username, string email, DateOnly dob, string gender, string department, string phone)
+        public IActionResult Index(string userId, string username, string email, DateOnly dob, string gender, string department, string phone ,string buttontype)
         {
             myUser = new User();
+            myUser.UserId = Convert.ToInt32(userId);
             myUser.UserName = username;
             myUser.Email = email;
-          
+
             myUser.DOB = dob.ToString();
             myUser.Gender = gender;
             myUser.DeptName = department;
             myUser.Phone = phone;
-
+            Console.WriteLine(myUser.DeptName);
             //TempData["newuser"] = myUser;
-            newUser.UpdateUser(myUser);
-            return RedirectToAction("Register");
+           
+            if(buttontype=="save")
+            {
+                newUser.UpdateUser(myUser);
+                TempData["Success"] = "updated Successfully";
+            }
+           
+            return View("Index");
         }
 
 
@@ -89,8 +97,7 @@ namespace User_Management_System.Controllers
             return View();
         }
 
-        public User myUser; 
-        UserRepository newUser = new UserRepository();
+       
         [HttpPost]
         public IActionResult RedirectToLogin(string username,string email,string password,DateOnly dob,string Gender, string Department,string phone)
         {
