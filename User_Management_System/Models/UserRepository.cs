@@ -45,11 +45,12 @@ namespace User_Management_System.Models
             return;
         }
 
-        public void UpdateUser(User user)
+        public void UpdateUser(User myUser)
         {
             connection();
             SqlCommand cmd = new SqlCommand("updateUser",con);
             cmd.CommandType = CommandType.StoredProcedure; 
+<<<<<<< HEAD
             cmd.Parameters.AddWithValue ("@username", user.UserName);
             cmd.Parameters.AddWithValue("@email", user.Email);
             cmd.Parameters.AddWithValue("@pass", user.Password);
@@ -59,6 +60,19 @@ namespace User_Management_System.Models
             cmd.Parameters.AddWithValue("@DeptId", user.DeptName);
             con.Open() ;
            
+=======
+            cmd.Parameters.AddWithValue ("userId", myUser.UserId);
+            cmd.Parameters.AddWithValue ("userName", myUser.UserName);
+            cmd.Parameters.AddWithValue("email", myUser.Email);
+            cmd.Parameters.AddWithValue("dob", myUser.DOB);
+            cmd.Parameters.AddWithValue("gender", myUser.Gender);
+            cmd.Parameters.AddWithValue("phone", myUser.Phone);
+            cmd.Parameters.AddWithValue("dept", myUser.DeptName);
+            con.Open() ;
+            cmd.ExecuteNonQuery();
+            con.Close();
+            return;
+>>>>>>> 011dea6dea085db10040234bfc58577ece94f38b
 
         }
         public void DeleteUser(User user) { return; }
@@ -88,9 +102,15 @@ namespace User_Management_System.Models
             con.Open();
             SqlDataReader dataReader = cmd.ExecuteReader();
                     dataReader.Read();
+<<<<<<< HEAD
           //  Console.WriteLine(dataReader["UserId"].ToString());
             myUser1.UserId = dataReader["UserId"].ToString();
            // Console.WriteLine(myUser1.UserId);
+=======
+            //Console.WriteLine(dataReader["UserId"].ToString());
+            myUser1.UserId = Convert.ToInt32(dataReader["UserId"]);
+            //Console.WriteLine(myUser1.UserId);
+>>>>>>> 011dea6dea085db10040234bfc58577ece94f38b
             myUser1.UserName = dataReader["UserName"].ToString();
             myUser1.Email = dataReader["Email"].ToString();
             myUser1.DOB = dataReader["DOB"].ToString();
