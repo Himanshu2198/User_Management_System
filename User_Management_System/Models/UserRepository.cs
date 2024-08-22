@@ -50,7 +50,6 @@ namespace User_Management_System.Models
             connection();
             SqlCommand cmd = new SqlCommand("updateUser",con);
             cmd.CommandType = CommandType.StoredProcedure; 
-            cmd.Parameters.AddWithValue ("@userId", user.UserId);
             cmd.Parameters.AddWithValue ("@username", user.UserName);
             cmd.Parameters.AddWithValue("@email", user.Email);
             cmd.Parameters.AddWithValue("@pass", user.Password);
@@ -59,8 +58,7 @@ namespace User_Management_System.Models
             cmd.Parameters.AddWithValue("@contact", user.Phone);
             cmd.Parameters.AddWithValue("@DeptId", user.DeptName);
             con.Open() ;
-            cmd.ExecuteNonQuery();
-            return;
+           
 
         }
         public void DeleteUser(User user) { return; }
@@ -90,9 +88,9 @@ namespace User_Management_System.Models
             con.Open();
             SqlDataReader dataReader = cmd.ExecuteReader();
                     dataReader.Read();
-            Console.WriteLine(dataReader["UserId"].ToString());
+          //  Console.WriteLine(dataReader["UserId"].ToString());
             myUser1.UserId = dataReader["UserId"].ToString();
-            Console.WriteLine(myUser1.UserId);
+           // Console.WriteLine(myUser1.UserId);
             myUser1.UserName = dataReader["UserName"].ToString();
             myUser1.Email = dataReader["Email"].ToString();
             myUser1.DOB = dataReader["DOB"].ToString();
