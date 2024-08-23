@@ -44,10 +44,11 @@ namespace User_Management_System.Controllers
             myUser.Phone = phone;
             Console.WriteLine(myUser.DeptName);
             //TempData["newuser"] = myUser;
-
-            newUser.UpdateUser(myUser);
+           
+            
+                newUser.UpdateUser(myUser);
             newUser.DeleteUser(myUser.UserId);
-
+           
             return View("Index");
         }
 
@@ -97,7 +98,7 @@ namespace User_Management_System.Controllers
 
        
         [HttpPost]
-        public IActionResult RedirectToLogin(string username,string email,string password,DateOnly dob,string Gender, string Department,string phone)
+        public IActionResult RedirectToLogin(string username, string email,string password,DateOnly dob,string Gender, string Department,string phone)
         {
             myUser = new User();
             myUser.UserName = username;
