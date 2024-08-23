@@ -20,7 +20,7 @@
        document.getElementById("updateUser").hidden=true;
     }
     function removeReadonly() {
-        alert("removeReadonly called.");
+       
         document.getElementById("usernameDisplay").removeAttribute('readonly');
         document.getElementById("emailDisplay").removeAttribute('readonly');
         document.getElementById("dobDisplay").removeAttribute('readonly');
@@ -29,7 +29,12 @@
         document.getElementById("phoneDisplay").removeAttribute('readonly');
         updateData();
     }
-    
+    function deletePopup(){
+        alert("data deleted");
+    }
+    function savePopup() {
+        alert("data saved");
+    }
     // $("#saveUser").click(function (e) {
     //     e.preventDefault();
     //     alert("saveUser called.");
