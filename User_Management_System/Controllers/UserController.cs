@@ -45,8 +45,7 @@ namespace User_Management_System.Controllers
             Console.WriteLine(myUser.DeptName);
             //TempData["newuser"] = myUser;
            
-            if(buttontype=="save")
-            {
+            
                 newUser.UpdateUser(myUser);
             newUser.DeleteUser(myUser.UserId);
            
@@ -99,7 +98,7 @@ namespace User_Management_System.Controllers
 
        
         [HttpPost]
-        public IActionResult RedirectToLogin(string username,string email,string password,DateOnly dob,string Gender, string Department,string phone)
+        public IActionResult RedirectToLogin(string username, string email,string password,DateOnly dob,string Gender, string Department,string phone)
         {
             myUser = new User();
             myUser.UserName = username;
