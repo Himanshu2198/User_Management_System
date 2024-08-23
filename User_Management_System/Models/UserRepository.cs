@@ -95,7 +95,6 @@ namespace User_Management_System.Models
             myUser1.UserId = Convert.ToInt32(dataReader["UserId"]);
            // Console.WriteLine(myUser1.UserId);
             //Console.WriteLine(dataReader["UserId"].ToString());
-            myUser1.UserId = Convert.ToInt32(dataReader["UserId"]);
             //Console.WriteLine(myUser1.UserId);
             myUser1.UserName = dataReader["UserName"].ToString();
             myUser1.Email = dataReader["Email"].ToString();

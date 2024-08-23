@@ -14,8 +14,8 @@
                 </span><br />Your Details Is Given Below :  
             </h1>
         </div>
-    <table class="table">
-        <thead class="thead-dark">
+    <table class="table" id="userTable">
+        <thead class="thead-dark" id="tableHead">
             <tr>
                 <th scope="col">User Id</th>
                 <th scope="col">User Name</th>
@@ -26,7 +26,7 @@
                 <th scope="col">Department Name</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody id="tableBody">
             <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
@@ -57,7 +57,39 @@
         </tbody>
     </table>
 
-   
+    <script>
+        function addRow() {
+            // Get the table body element in which you want to add row
+            let table = document.getElementById("tableBody");
+
+            // Create row element
+            let row = document.createElement("tr")
+
+            // Create cells
+            let h = document.createElement("th")
+            let c1 = document.createElement("td")
+            let c2 = document.createElement("td")
+            let c3 = document.createElement("td")
+            let c4 = document.createElement("td")
+
+            // Insert data to cells
+            h="1"
+            c1.innerText = "Elon"
+            c2.innerText = "42"
+            c3.innerText = "Houston"
+            c4.innerText = "C++"
+
+            // Append cells to row
+            row.appendChild(h);
+            row.appendChild(c1);
+            row.appendChild(c2);
+            row.appendChild(c3);
+            row.appendChild(c4);
+
+            // Append row to table body
+            table.appendChild(row)
+        }
+    </script>
         
     
     </body>

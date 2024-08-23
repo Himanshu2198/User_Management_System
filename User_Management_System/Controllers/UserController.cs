@@ -73,7 +73,7 @@ namespace User_Management_System.Controllers
             {
                 TempData["user"] = userName;
                 User myu1 =newUser.DisplayUser(userName, pwd);
-               // Console.WriteLine(myu1.UserName);
+                Console.WriteLine(myu1.UserName);
                 TempData["userName"] = myu1.UserName;
                 TempData["userId"] = myu1.UserId;
                 TempData["Email"] = myu1.Email;

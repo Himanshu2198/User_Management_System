@@ -1,66 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\",
+  "WorkspaceRootPath": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\bin\\Debug\\net8.0\\User_Management_System.staticwebassets.runtime.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:User_Management_System\\bin\\Debug\\net8.0\\User_Management_System.staticwebassets.runtime.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\aanchalbisht\\source\\repos\\user_management_system\\user_management_system\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\models\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\models\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\views\\user_registration\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\user_registration\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Models\\FetchUserData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:User_Management_System\\Models\\FetchUserData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|c:\\users\\parthbajaj\\source\\repos\\user_management_system\\user_management_system\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F168AFA9-1F62-4887-8035-2F91407735C8}|User_Management_System\\User_Management_System.csproj|solutionrelative:user_management_system\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,210 +62,181 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Program.cs",
-              "RelativeDocumentMoniker": "User_Management_System\\Program.cs",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Program.cs",
-              "RelativeToolTip": "User_Management_System\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:14:26.747Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "User_Management_System\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "User_Management_System\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "User_Management_System\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "User_Management_System\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T04:54:20.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User_Management_System.staticwebassets.runtime.json",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\bin\\Debug\\net8.0\\User_Management_System.staticwebassets.runtime.json",
-              "RelativeDocumentMoniker": "User_Management_System\\bin\\Debug\\net8.0\\User_Management_System.staticwebassets.runtime.json",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\bin\\Debug\\net8.0\\User_Management_System.staticwebassets.runtime.json",
-              "RelativeToolTip": "User_Management_System\\bin\\Debug\\net8.0\\User_Management_System.staticwebassets.runtime.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T05:13:53.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2024-08-06T12:19:23.548Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\appsettings.json",
-              "RelativeDocumentMoniker": "User_Management_System\\appsettings.json",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\appsettings.json",
-              "RelativeToolTip": "User_Management_System\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T04:54:55.101Z",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Models\\UserRepository.cs",
+              "RelativeDocumentMoniker": "User_Management_System\\Models\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Models\\UserRepository.cs",
+              "RelativeToolTip": "User_Management_System\\Models\\UserRepository.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwGAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T06:37:53.877Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "User_Management_System\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Properties\\launchSettings.json",
               "RelativeToolTip": "User_Management_System\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T04:54:31.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "User_Management_System\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "User_Management_System\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T04:54:05.433Z",
+              "WhenOpened": "2024-08-23T04:54:57.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "User_Management_System\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "User_Management_System\\Views\\_ViewImports.cshtml",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "User_Management_System\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\appsettings.Development.json",
+              "RelativeToolTip": "User_Management_System\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T04:54:03.069Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-23T04:54:53.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Models\\User.cs",
+              "RelativeDocumentMoniker": "User_Management_System\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Models\\User.cs",
+              "RelativeToolTip": "User_Management_System\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T06:37:51.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "User_Management_System\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "User_Management_System\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T04:52:41.754Z",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Models\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "User_Management_System\\Models\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Models\\IUserRepository.cs",
+              "RelativeToolTip": "User_Management_System\\Models\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:27:28.01Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "User_Management_System\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "User_Management_System\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T03:52:47.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "User_Management_System\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Controllers\\UserController.cs",
+              "RelativeToolTip": "User_Management_System\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAIwEsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T06:38:12.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "User_Management_System\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "User_Management_System\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T08:57:41.893Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "User_Management_System\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Controllers\\UserController.cs*",
-              "RelativeToolTip": "User_Management_System\\Controllers\\UserController.cs*",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAmwFwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:23:45.075Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "User_Management_System\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "User_Management_System\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T04:50:06.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Models\\UserRepository.cs",
-              "RelativeDocumentMoniker": "User_Management_System\\Models\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Models\\UserRepository.cs",
-              "RelativeToolTip": "User_Management_System\\Models\\UserRepository.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAwwEoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T04:34:51.507Z",
+              "DocumentIndex": 1,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\UserList.cshtml",
+              "RelativeDocumentMoniker": "User_Management_System\\Views\\User\\UserList.cshtml",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\UserList.cshtml",
+              "RelativeToolTip": "User_Management_System\\Views\\User\\UserList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T08:57:57.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Models\\User.cs",
-              "RelativeDocumentMoniker": "User_Management_System\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Models\\User.cs",
-              "RelativeToolTip": "User_Management_System\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Title": "FetchUserData.cs",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Models\\FetchUserData.cs",
+              "RelativeDocumentMoniker": "User_Management_System\\Models\\FetchUserData.cs",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Models\\FetchUserData.cs",
+              "RelativeToolTip": "User_Management_System\\Models\\FetchUserData.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T05:49:21.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T08:57:07.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "User_Management_System\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "User_Management_System\\Views\\Shared\\Error.cshtml",
+              "DocumentIndex": 10,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_Registration\\Registration.cshtml",
+              "RelativeDocumentMoniker": "User_Management_System\\Views\\User_Registration\\Registration.cshtml",
+              "ToolTip": "C:\\Users\\ParthBajaj\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User_Registration\\Registration.cshtml",
+              "RelativeToolTip": "User_Management_System\\Views\\User_Registration\\Registration.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T04:52:38.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "User_Management_System\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\appsettings.Development.json",
-              "RelativeToolTip": "User_Management_System\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T04:51:59.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "User_Management_System\\Views\\User\\Register.cshtml",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "User_Management_System\\Views\\User\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T04:58:21.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "User_Management_System\\Views\\User\\Index.cshtml",
-              "ToolTip": "C:\\Users\\AanchalBisht\\source\\repos\\User_Management_System\\User_Management_System\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "User_Management_System\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T12:23:35.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T12:19:56.674Z"
             }
           ]
         }

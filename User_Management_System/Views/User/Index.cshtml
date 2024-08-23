@@ -8,6 +8,7 @@
     var userdob = TempData["DOB"]  ;
     var userphone = TempData["Phone"] as string;
     var userdept = TempData["DeptName"] as string;
+    var success = TempData["Success"];
 }
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -28,7 +29,7 @@
         document.getElementById("phoneDisplay").removeAttribute('readonly');
         updateData();
     }
-
+    
     // $("#saveUser").click(function (e) {
     //     e.preventDefault();
     //     alert("saveUser called.");
@@ -63,7 +64,7 @@
 @{
     if (@userid != null)
     {
-
+   
         <div class="text-center h-100 d-flex align-items-center justify-content-center">
             <div class="card m-md-3 mx-auto" style="width:50rem; height:70rem;">
                 <div class="card-body py-5 px-md-5">
@@ -77,7 +78,7 @@
                         </div><br />
                         <div class="form-group">
                             <label for="username">User Name:</label>
-                            <input type="text" id="usernameDisplay" name="username" value=@username readonly>
+                            <input type="text" id="usernameDisplay" name="username" value=@username  readonly>
                         </div><br />
                         <div class="form-group">
                             <label for="email">Email:</label>
@@ -103,7 +104,7 @@
                         </div> <br />
 
                         <button type="button" name="buttontype" value="update" class="btn btn-primary" id="updateUser" onclick="removeReadonly()">Update</button>
-                        <button type="submit" name="buttontype" value="save" class="btn btn-primary" id="saveUser" hidden="true">save</button>
+                        <button type="submit" name="buttontype" value="save" class="btn btn-primary" id="saveUser" hidden="true" >save</button>
 
 
                     </form>
