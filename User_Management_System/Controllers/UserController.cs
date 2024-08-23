@@ -48,8 +48,7 @@ namespace User_Management_System.Controllers
             if(buttontype=="save")
             {
                 newUser.UpdateUser(myUser);
-                TempData["Success"] = "updated Successfully";
-            }
+            newUser.DeleteUser(myUser.UserId);
            
             return View("Index");
         }

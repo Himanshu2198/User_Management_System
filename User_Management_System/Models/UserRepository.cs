@@ -64,7 +64,17 @@ namespace User_Management_System.Models
 
 
         }
-        public void DeleteUser(User user) { return; }
+        public void DeleteUser(int userId) {
+            connection();
+            SqlCommand cmd = new SqlCommand("DelUser", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("userId", userId);
+            con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
+
+            return;
+        }
         public DataTable getUserDetails(string uname, string pass)
         {
             connection();
