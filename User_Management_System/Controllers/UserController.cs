@@ -67,6 +67,15 @@ namespace User_Management_System.Controllers
         {
             return View();
         }
+        public IActionResult UserList()
+
+        {
+            DataTable dt = newUser.getUserList();
+            if (dt != null) {
+               ViewBag.DataTable=dt;
+            }
+            return View();  
+        }
 
         [HttpPost]
         public IActionResult RedirectToHome(string userName, string pwd)
@@ -83,7 +92,7 @@ namespace User_Management_System.Controllers
                 TempData["Gender"]=myu1.Gender;
                 DateTime dateObject = DateTime.Parse(myu1.DOB);
                 TempData["DOB"] = dateObject.Date;
-               // Console.WriteLine(TempData["DOB"]);
+               // Console.WriteLine(TempData["DOB"]); 
                 TempData["Phone"] = myu1.Phone;
                 TempData["DeptName"] = myu1.DeptName;
                // Console.WriteLine(TempData["userId"]);
@@ -129,11 +138,7 @@ namespace User_Management_System.Controllers
         {
             return View();
         }
-        public IActionResult UserList()
-
-        {
-            return View();
-        }
+       
         
         
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

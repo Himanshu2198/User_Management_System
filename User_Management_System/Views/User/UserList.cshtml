@@ -1,6 +1,7 @@
+@using System.Data
 
 @{
-
+    DataTable dataTable = ViewBag.DataTable as DataTable;
 }
 <!DOCTYPE html>
     <html>
@@ -27,38 +28,20 @@
             </tr>
         </thead>
         <tbody id="tableBody">
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Mark@gmail.com</td>
-                <td>Male</td>
-                <td>2-10-2006</td>
-                <td>2564186235</td>
-                <td>Engineering</td>
-            </tr>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Mark@gmail.com</td>
-                <td>Male</td>
-                <td>2-10-2006</td>
-                <td>2564186235</td>
-                <td>Engineering</td>
-            </tr>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Mark@gmail.com</td>
-                <td>Male</td>
-                <td>2-10-2006</td>
-                <td>2564186235</td>
-                <td>Engineering</td>
-            </tr>
+            @foreach (DataRow row in dataTable.Rows)
+            {
+                <tr>
+                    @foreach (DataColumn column in dataTable.Columns)
+                    {
+                        <td>@row[column]</td>
+                    }
+                </tr>
+            }
         </tbody>
     </table>
 
-    <script>
-        function addRow() {
+@*     <script>
+     
             // Get the table body element in which you want to add row
             let table = document.getElementById("tableBody");
 
@@ -71,13 +54,16 @@
             let c2 = document.createElement("td")
             let c3 = document.createElement("td")
             let c4 = document.createElement("td")
-
+            let c5 = document.createElement("td")
+            let c6 = document.createElement("td")
             // Insert data to cells
             h="1"
             c1.innerText = "Elon"
             c2.innerText = "42"
             c3.innerText = "Houston"
             c4.innerText = "C++"
+            c5.innerText = "C++"
+            c6.innerText = "C++"
 
             // Append cells to row
             row.appendChild(h);
@@ -85,12 +71,14 @@
             row.appendChild(c2);
             row.appendChild(c3);
             row.appendChild(c4);
+            row.appendChild(c5);
+            row.appendChild(c6);
 
             // Append row to table body
             table.appendChild(row)
-        }
+       
     </script>
-        
+         *@
     
     </body>
     </html>
