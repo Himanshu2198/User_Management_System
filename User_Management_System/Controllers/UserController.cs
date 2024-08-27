@@ -44,10 +44,15 @@ namespace User_Management_System.Controllers
             myUser.Phone = phone;
             Console.WriteLine(myUser.DeptName);
             //TempData["newuser"] = myUser;
-           
-            
+
+            if (buttontype == "save")
+            {
                 newUser.UpdateUser(myUser);
-            newUser.DeleteUser(myUser.UserId);
+            }
+            if (buttontype == "delete")
+            {
+                newUser.DeleteUser(myUser.UserId);
+            }
            
             return View("Index");
         }
